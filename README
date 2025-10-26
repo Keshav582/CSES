@@ -1,2 +1,5 @@
 Introductory Problems:
 1. Weird Algo: simply simulate the process
+2. Missing Number: make a set with all 1 to n, remove the inputs, one number left
+3. Repetitions: check at every letter it's occurences
+4. Increasing Array: at every index make the number >= previous
