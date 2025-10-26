@@ -3,3 +3,5 @@ Introductory Problems:
 2. Missing Number: make a set with all 1 to n, remove the inputs, one number left
 3. Repetitions: check at every letter it's occurences
 4. Increasing Array: at every index make the number >= previous
+5. Permutations: n=1 is always good, n=2 or 3 can never give solution, in all other cases just print all even numbers (last even would be >=4), then all odd numbers starting with 1 (diff b/w 1 and last even def. >1)
+6. Number Spiral: see that in extending a grid from x*x to (x+1)*(x+1) dimensions, we will be adding numbers in the range (x*x)+1 to (x+1)*(x+1), after this observation it's easy to see that the "controlling" number is the larger out of row and column given in question, using this info we can find the target in O(1) time.
