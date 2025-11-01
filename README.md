@@ -69,3 +69,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 1. **Distinct Numbers:** Use a set to keep count of distinct numbers.
 
 2. **Apartments:** Greedy approach works best here, we can sort the desired size and actual sizes, now at every desired size we can skip the actual apartments that are small than current constraint (since thae arrays are sorted, if constraint for current index is not satisfied - no way it satisfies constraints for any thing later), if appropriate apartment found then assign it to the applicant and move forward.
+
+3. **Ferris Wheel:** Greedy approach works here, we can sort the weights, start picking the highest weight and see if we can fit another weight.
+
+4. **Concert Tickets:** Greedy approach works here, for every visitor try to assign them the highest priced ticket possible.
