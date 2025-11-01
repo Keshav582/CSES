@@ -81,3 +81,5 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 7. **Sum of Two Values:** Greedy approach works here, we sort the array (we maintain the original indices too), we start with first and last index - if sum is less then increase first index, if more decrease second index, if equal then we got the answer.
 
 8. **Maximum Subarray Sum:** Kadane's Algo
+
+9. **Stick Lengths:** Greedy approach, picking median is always the best
