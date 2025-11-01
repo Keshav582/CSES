@@ -61,3 +61,11 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
     **Note 1:** CSES has extremely tight constraints, so even with the correct approach you can get TLE, in the committed solution see that I have commented some code at bottom - which has exact same logic but gets TLE, so had to do micro optimizations (what data type to use, global variables, etc...)  
 
     **Note 2:** The pruning idea is very well explained in the CP Handbook (chapter 5 - Complete Search), I have implemented the grid problem from book in `OtherProblemsFromBook/CompleteSearch_GridPathCount.cpp`
+
+---
+
+## Sorting and Searching:
+
+1. **Distinct Numbers:** Use a set to keep count of distinct numbers.
+
+2. **Apartments:** Greedy approach works best here, we can sort the desired size and actual sizes, now at every desired size we can skip the actual apartments that are small than current constraint (since thae arrays are sorted, if constraint for current index is not satisfied - no way it satisfies constraints for any thing later), if appropriate apartment found then assign it to the applicant and move forward.
