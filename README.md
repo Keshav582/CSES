@@ -73,3 +73,9 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 3. **Ferris Wheel:** Greedy approach works here, we can sort the weights, start picking the highest weight and see if we can fit another weight.
 
 4. **Concert Tickets:** Greedy approach works here, for every visitor try to assign them the highest priced ticket possible.
+
+5. **Restaurant Customers:** An important observation is - arrival and departure times are independent of each other. So I can keep a counter of customers, we can maintain index of arrival array and index of departure array, if arrival time < departure time then numbers of customers increase, else number of customers decrease. Keep checking the answer at every index.
+
+6. **Movie Festival:** Greedy approach works here, a movie that ends early is better to always have room for more moview afterwards.
+
+7. **Sum of Two Values:** Greedy approach works here, we sort the array (we maintain the original indices too), we start with first and last index - if sum is less then increase first index, if more decrease second index, if equal then we got the answer.
