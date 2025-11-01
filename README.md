@@ -1,7 +1,7 @@
 # 📘 CSES Problem Set Notes
 
-These are my notes for the **Introductory Problems** section of the [CSES Problem Set](https://cses.fi/problemset/).  
-Reference for some pruning ideas: [**Competitive Programmer’s Handbook**](https://cses.fi/book/book.pdf).
+These are my notes for [CSES Problem Set](https://cses.fi/problemset/).  
+Reading material on which the problemset is based: [**Competitive Programmer’s Handbook**](https://cses.fi/book/book.pdf).
 
 ---
 
