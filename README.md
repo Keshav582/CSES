@@ -83,3 +83,5 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 8. **Maximum Subarray Sum:** Kadane's Algo
 
 9. **Stick Lengths:** Greedy approach, picking median is always the best
+
+10. **Missing Coin Sum:** In this problem it doesn't matter what all numbers can I make, it suffices to know just the range of numbers I can make at a point, let's say before going to index i we can make numbers in range [0, hi], now if we include the element at index i, I can get more numbers in range [0+vi, hi+vi], what if 0+vi<=hi+1 -> we can get all numbers in range [0, hi+vi] and our range is now updated, but what if 0+vi>hi+1, clearly hi+1 number is missed - which becomes our answer, this all works if array is sorted so we do that first.
