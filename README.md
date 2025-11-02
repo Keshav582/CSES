@@ -85,3 +85,5 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 9. **Stick Lengths:** Greedy approach, picking median is always the best
 
 10. **Missing Coin Sum:** In this problem it doesn't matter what all numbers can I make, it suffices to know just the range of numbers I can make at a point, let's say before going to index i we can make numbers in range [0, hi], now if we include the element at index i, I can get more numbers in range [0+vi, hi+vi], what if 0+vi<=hi+1 -> we can get all numbers in range [0, hi+vi] and our range is now updated, but what if 0+vi>hi+1, clearly hi+1 number is missed - which becomes our answer, this all works if array is sorted so we do that first.
+
+11. **Collecting Numbers:** In this problem, if at any index we see a number X, if X-1 has been seen earlier, then X would be part of an already existing "chain of numbers", so our answer doesn't increase, but if I haven't seen X-1 earlier, I have to start a new chain of which the first number is X - our answer count increases by 1 here. We can use set to efficiently find if we saw a number.
