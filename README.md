@@ -92,3 +92,6 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 13. **Playlist:** Sliding window works here.
 
+15. **Towers:** For every block we just have to find it's upper bound tower top, if there is one we'll place the current block on top of it, if we don't find that we just make a new tower.
+
+16. **Traffic Lights:** We can maintain start and end positions of light-less intervals, like initially I can store {0, x} because there are no lights, and as I place lights we can update the intervals, maintain a map to keep a track of length of intervals.
