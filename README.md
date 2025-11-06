@@ -99,3 +99,5 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 17. **Subarray Sums 1:** When we reach some index and have the running sum as currSum let's say, now in order to find the number of subarrays with sum x, we can just see the number of subarrays that have sum currSum-x because if I subtract the currSum-x's subarray from current, I will get the sum currSum-(currSum-x) which is x -> exactly what we want!
 
 18. **Subarray Sums 2:** Same as subarray sums 1
+
+19. **Subarray Divisibility:** Similar thing as Subarray Sums 1, here we can just track remainders.
