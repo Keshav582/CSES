@@ -100,7 +100,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 18. **Distinct Values Subsequences:**
 
-19. **Josephus Problem 1:**
+19. **Josephus Problem 1:** Problem can be best represented like a simulation over a linked list (linked list because we can actually delete the node that is processed, in an array we would have to do some offset for deleted nodes).
 
 20. **Josephus Problem 2:**
 
@@ -114,7 +114,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 25. **Tasks and Deadlines:** I score is going to be sum(d-f) [can be written as sum(d)-sum(f)], and since we have to do all tasks, sum(d) becomes a constant, so only "real change" in answer comes by value of sum(f), since it is being subtracted, we have to select an order of tasks where sum(f) is minimized, greedily, such order comes out to: pick smallest duration task first.
 
-26. **Reading Books:**
+26. **Reading Books:** Let's sort the reading times of book, let player 1 start from the first book, player 2 from the last, now player 1 will keep moving in the forward direction only, and when player 2 is done with his book, he can also start from the first book because duration of first book<=duration of last book (so if last book is read, first must have been read definitely and is available). For player 1, when he reaches the last book he might have to wait for the reading of that book by player 2 (if the duration to read is long enough) - so consider this in the answer too.
 
 27. **Sum of Three Values:** The array can be sorted (maintain original indices in some way too), fix any two indices at a time and do binary search to find the third.
 
