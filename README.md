@@ -120,7 +120,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 28. **Sum of Four Values:**
 
-29. **Nearest Smaller Values:**
+29. **Nearest Smaller Values:** Till reaching any position, it doesn't make sense to know numbers greater than it (towards it's left) because those greater numbers will never be the answer for any future position (beause current number is smaller and closest so this is a better option for any future position)... so we see that we never have to do a full lookup to the left, we can just maintain a increasing subsequence... best way to do this is a stack
 
 30. **Subarray Sums 1:** When we reach some index and have the running sum as currSum let's say, now in order to find the number of subarrays with sum x, we can just see the number of subarrays that have sum currSum-x because if I subtract the currSum-x's subarray from current, I will get the sum currSum-(currSum-x) which is x -> exactly what we want!
 
