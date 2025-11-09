@@ -96,8 +96,42 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 16. **Traffic Lights:** We can maintain start and end positions of light-less intervals, like initially I can store {0, x} because there are no lights, and as I place lights we can update the intervals, maintain a map to keep a track of length of intervals.
 
-17. **Subarray Sums 1:** When we reach some index and have the running sum as currSum let's say, now in order to find the number of subarrays with sum x, we can just see the number of subarrays that have sum currSum-x because if I subtract the currSum-x's subarray from current, I will get the sum currSum-(currSum-x) which is x -> exactly what we want!
+17. **Distinct Values Subarrays:**
 
-18. **Subarray Sums 2:** Same as subarray sums 1
+18. **Distinct Values Subsequences:**
 
-19. **Subarray Divisibility:** Similar thing as Subarray Sums 1, here we can just track remainders.
+19. **Josephus Problem 1:**
+
+20. **Josephus Problem 2:**
+
+21. **Nested Ranges Check:**
+
+22. **Nested Ranges Count:**
+
+23. **Room Allocation:**
+
+24. **Factory Machines:** Let's say the answer to the problem is X seconds, then we know that we will be able to produce t products in X+1, X+2.... seconds also, and we won't be able to make t products in X-1, X-2... seconds. So our answer space looks like: false, false, false.... true, true, true.....true. We just need to find the first true, because of the sorted nature of answer space we can use Binary Search.
+
+25. **Tasks and Deadlines:**
+
+26. **Reading Books:**
+
+27. **Sum of Three Values:**
+
+28. **Sum of Four Values:**
+
+29. **Nearest Smaller Values:**
+
+30. **Subarray Sums 1:** When we reach some index and have the running sum as currSum let's say, now in order to find the number of subarrays with sum x, we can just see the number of subarrays that have sum currSum-x because if I subtract the currSum-x's subarray from current, I will get the sum currSum-(currSum-x) which is x -> exactly what we want!
+
+31. **Subarray Sums 2:** Same as subarray sums 1
+
+32. **Subarray Divisibility:** Similar thing as Subarray Sums 1, here we can just track remainders.
+
+33. **Distinct Values Subarrays 2:**
+
+34. **Array Division:**
+
+35. **Movie Festival 2:**
+
+36. **Maximum Subarray Sum 2:**
