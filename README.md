@@ -112,11 +112,11 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 24. **Factory Machines:** Let's say the answer to the problem is X seconds, then we know that we will be able to produce t products in X+1, X+2.... seconds also, and we won't be able to make t products in X-1, X-2... seconds. So our answer space looks like: false, false, false.... true, true, true.....true. We just need to find the first true, because of the sorted nature of answer space we can use Binary Search.
 
-25. **Tasks and Deadlines:**
+25. **Tasks and Deadlines:** I score is going to be sum(d-f) [can be written as sum(d)-sum(f)], and since we have to do all tasks, sum(d) becomes a constant, so only "real change" in answer comes by value of sum(f), since it is being subtracted, we have to select an order of tasks where sum(f) is minimized, greedily, such order comes out to: pick smallest duration task first.
 
 26. **Reading Books:**
 
-27. **Sum of Three Values:**
+27. **Sum of Three Values:** The array can be sorted (maintain original indices in some way too), fix any two indices at a time and do binary search to find the third.
 
 28. **Sum of Four Values:**
 
@@ -130,7 +130,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 33. **Distinct Values Subarrays 2:**
 
-34. **Array Division:**
+34. **Array Division:** If a number X is such that we can divide the array into <=k subarrays where each subarray's sum is <=X, then it is obvious that this X is a potential answer and we can try this making even smaller... Binary Search.
 
 35. **Movie Festival 2:**
 
