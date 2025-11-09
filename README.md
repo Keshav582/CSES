@@ -108,7 +108,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 22. **Nested Ranges Count:**
 
-23. **Room Allocation:**
+23. **Room Allocation:** We need some kind of ordering of arrivals and departures, in our case it makes sense to sort by arrival time because as soon as customer arrives we have to allot them a room and we will know the status of other customers who have already come (and maybe left too), so at any point I can just check whether the earliest customers (that are not processed yet) have left or not -  if they have I can just allot that room to the current customer, otherwise a new room is required.
 
 24. **Factory Machines:** Let's say the answer to the problem is X seconds, then we know that we will be able to produce t products in X+1, X+2.... seconds also, and we won't be able to make t products in X-1, X-2... seconds. So our answer space looks like: false, false, false.... true, true, true.....true. We just need to find the first true, because of the sorted nature of answer space we can use Binary Search.
 
