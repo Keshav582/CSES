@@ -118,7 +118,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 27. **Sum of Three Values:** The array can be sorted (maintain original indices in some way too), fix any two indices at a time and do binary search to find the third.
 
-28. **Sum of Four Values:**
+28. **Sum of Four Values:** Sort the complete array, now iterate over two indices (nested loop) and try to use two pointers in remaining range to find a solution.
 
 29. **Nearest Smaller Values:** Till reaching any position, it doesn't make sense to know numbers greater than it (towards it's left) because those greater numbers will never be the answer for any future position (beause current number is smaller and closest so this is a better option for any future position)... so we see that we never have to do a full lookup to the left, we can just maintain a increasing subsequence... best way to do this is a stack
 
