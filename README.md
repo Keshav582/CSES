@@ -128,7 +128,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 32. **Subarray Divisibility:** Similar thing as Subarray Sums 1, here we can just track remainders.
 
-33. **Distinct Values Subarrays 2:**
+33. **Distinct Values Subarrays 2:** This problem can be solved easily by using a sliding window where we maintain the elements between the two pointers at all times, if let's say at index i we can see that till the pointer r my number of distinct values is good than every subarray starting at i and ending anywhere in [i, r] is good - so count it in the answer.
 
 34. **Array Division:** If a number X is such that we can divide the array into <=k subarrays where each subarray's sum is <=X, then it is obvious that this X is a potential answer and we can try this making even smaller... Binary Search.
 
