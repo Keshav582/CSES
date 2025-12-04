@@ -88,7 +88,7 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 11. **Collecting Numbers:** In this problem, if at any index we see a number X, if X-1 has been seen earlier, then X would be part of an already existing "chain of numbers", so our answer doesn't increase, but if I haven't seen X-1 earlier, I have to start a new chain of which the first number is X - our answer count increases by 1 here. We can use set to efficiently find if we saw a number.
 
-12. **Collecting Numbers 2:**
+12. **Collecting Numbers 2:** For all numbers we will store the index that they are present at also. An observation to make here is, if I know the initial number of passes I will have to make (we can easily calculate this in one pass of the array) then for every swap the only thing that matters is how the relative position of number-1, number+1 have changed for both the numbers at those indices.
 
 13. **Playlist:** Sliding window works here.
 
