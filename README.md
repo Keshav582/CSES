@@ -132,6 +132,6 @@ Reading material on which the problemset is based: [**Competitive Programmer’s
 
 34. **Array Division:** If a number X is such that we can divide the array into <=k subarrays where each subarray's sum is <=X, then it is obvious that this X is a potential answer and we can try this making even smaller... Binary Search.
 
-35. **Movie Festival 2:**
+35. **Movie Festival 2:** In scheduling problems where we want to maximize non-overlapping events - it's best to pick the events that don't overlap with picked events and they finish ASAP, in this problem we can just consider this problem to be solved k times.
 
 36. **Maximum Subarray Sum 2:**
